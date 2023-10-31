@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+.subumission_main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  
+    background-image: url(./../assets/bg3.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: cover;
+}
+.h1{
+    font-family: 'Rubik';
+    color:#2F3545
+}
+.h2{
+    font-family: 'Rubik';
+    color:#2F3545
+}
+.p{
+    font-family: 'Rubik'; 
+}
+.span{
+    color:rgb(14, 51, 199)
+}
+.submission_sub_container{
+    
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    width: 100vw;
+    height: 80%;
+    margin-left: 40%;
+}
+
+.upload_box{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    border-width: thick;
+    background-color: rgba(53, 97, 75, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);  
+    padding: 38px;  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+}
+
+.upload_icon{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+
+.button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Rubik';
+ 
+}
+
+.button1{
+    padding: 10px;
+    background-color: white;
+    font-size: large;
+    font-family: 'Rubik';
+}
+.box_card_prj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto; 
+    max-width: 100%;
+  }
+  .landing_sub_container1{
+    display: flex;   
+    flex-direction: column;
+    padding: 8px;
+    width: 45%;
+    margin-left: 5rem;
+}
+.landing_sub_container2{
+    display: flex;   
+    margin-left: 5rem;
+    width: 45%;
+}
+.landing{
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+ 
+}

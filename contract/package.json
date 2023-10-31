@@ -1,0 +1,24 @@
+{
+  "name": "hello_near",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "type": "module",
+  "scripts": {
+    "build": "./build.sh",
+    "deploy": "./deploy.sh",
+    "test": "echo use integration-tests"
+  },
+  "dependencies": {
+    "near-cli": "^3.4.2",
+    "near-sdk-as": "^3.2.3",
+    "near-sdk-js": "1.0.0"
+  },
+  "devDependencies": {
+    "ts-morph": "^16.0.0",
+    "typescript": "^4.7.4"
+  },
+  "description": "The smart contract exposes two methods to enable storing and retrieving a greeting in the NEAR network.",
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
+}
