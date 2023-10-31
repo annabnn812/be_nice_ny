@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 AWS.config.update({
-  accessKeyId: 'AKIA45RXRSKRFVCGB4T5',
-  secretAccessKey: '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',
+  accessKeyId: 'A.....',
+  secretAccessKey: '8S......',
   region: 'us-east-2',
 });
 
@@ -16,7 +16,7 @@ const userUploadedVideo = {
 const params = {
   Video: {
     S3Object: {
-      Bucket: "lola-store",
+      Bucket: "l.....",
       Name: userUploadedVideo.name, // Use the user's uploaded video file name
     },
   },
