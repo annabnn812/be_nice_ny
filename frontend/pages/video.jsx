@@ -16,11 +16,11 @@ function Video ()  {
       <Row className="justify-content-center">
         <Col sm={12} xs={12} md={6} xxl={6}>
           <UploadToS3
-            bucket="lola-store"
+            bucket="l....."
             awsRegion="us-east-2"
-            awsKey="AKIA45RXRSKRFVCGB4T5"
-            awsSecret="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"
-            awsMediaConvertEndPoint="https://fkuulejsc.mediaconvert.us-east-2.amazonaws.com"
+            awsKey="A...."
+            awsSecret="8....."
+            awsMediaConvertEndPoint="https://fku....."
             type="image"
                 mediaConvertRole="mediaconvert_role"
                 theme={theme}
